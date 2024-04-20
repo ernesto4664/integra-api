@@ -1,0 +1,30 @@
+{
+    "name": "ziffdavis/nova-multiselect",
+    "description": "A Laravel Nova multiselect field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "selectize"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZiffDavis\\Nova\\MultiSelect\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZiffDavis\\Nova\\MultiSelect\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
